@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.innopolis.problem2</OriginalElement>
+  <nodes>
+    <node x="0.0" y="181.5">ru.innopolis.problem2.USBPort</node>
+    <node x="527.75" y="159.0">ru.innopolis.problem2.Smartphone</node>
+    <node x="532.75" y="28.0">ru.innopolis.problem2.EnergyReceiver</node>
+    <node x="409.0" y="474.0">ru.innopolis.problem2.Main</node>
+    <node x="225.25" y="0.0">ru.innopolis.problem2.Port</node>
+    <node x="232.0" y="176.5">ru.innopolis.problem2.LightningPort</node>
+    <node x="532.25" y="353.0">ru.innopolis.problem2.Pixel</node>
+    <node x="0.0" y="474.0">ru.innopolis.problem2.ChargeStation</node>
+    <node x="644.25" y="353.0">ru.innopolis.problem2.IPhone</node>
+    <node x="223.5" y="330.0">ru.innopolis.problem2.LightningToUsbAdapter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.innopolis.problem2.Pixel" target="ru.innopolis.problem2.Smartphone" relationship="GENERALIZATION">
+      <point x="0.0" y="-26.5" />
+      <point x="578.25" y="305.0" />
+      <point x="637.75" y="305.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="ru.innopolis.problem2.LightningToUsbAdapter" target="ru.innopolis.problem2.LightningPort" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="43.0" />
+    </edge>
+    <edge source="ru.innopolis.problem2.LightningPort" target="ru.innopolis.problem2.Port" relationship="GENERALIZATION">
+      <point x="0.0" y="-43.0" />
+      <point x="354.0" y="139.0" />
+      <point x="230.0" y="139.0" />
+      <point x="230.0" y="129.0" />
+      <point x="275.25" y="129.0" />
+      <point x="-50.0" y="54.5" />
+    </edge>
+    <edge source="ru.innopolis.problem2.Smartphone" target="ru.innopolis.problem2.Port" relationship="DEPENDENCY">
+      <point x="-55.0" y="-60.5" />
+      <point x="582.75" y="139.0" />
+      <point x="375.25" y="139.0" />
+      <point x="50.0" y="54.5" />
+    </edge>
+    <edge source="ru.innopolis.problem2.IPhone" target="ru.innopolis.problem2.Smartphone" relationship="GENERALIZATION">
+      <point x="0.0" y="-26.5" />
+      <point x="697.25" y="305.0" />
+      <point x="637.75" y="305.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="ru.innopolis.problem2.USBPort" target="ru.innopolis.problem2.Port" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="106.0" y="139.0" />
+      <point x="230.0" y="139.0" />
+      <point x="230.0" y="129.0" />
+      <point x="275.25" y="129.0" />
+      <point x="-50.0" y="54.5" />
+    </edge>
+    <edge source="ru.innopolis.problem2.Smartphone" target="ru.innopolis.problem2.EnergyReceiver" relationship="REALIZATION">
+      <point x="55.0" y="-60.5" />
+      <point x="692.75" y="139.0" />
+      <point x="642.75" y="139.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="376.5" y="275.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
